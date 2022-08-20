@@ -416,8 +416,23 @@ h5{
     color: #fff;
   }
   
-  .section__subtitle {
+.section__subtitle {
     display: block;
     font-size: .813rem;
     margin-bottom: 3rem;
-  }
+ }
+ .portfolio__container{
+    overflow: initial;
+ }
+ .portfolio__content{
+    padding: 0 1.5rem;
+ }
+.portfolio__img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+.portfolio__title{
+    font-size: 1.125rem ;
+    margin-bottom: 0.5rem;
+}
