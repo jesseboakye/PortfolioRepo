@@ -7,34 +7,35 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
+    <link href="images/" rel = "icon">
 </head>
 <body>
-    <header>
+    <header style="background-color: #24252a;">
         <img class = "logo" src="images/" alt ="logo">
-        <nav>
+        <nav >
             <ul class = "nav__links">
-                <li> <a href="#">About</a></li>
-                <li> <a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li> <a href="#">Resume</a></li>
+                <li> <a href="#about-me">About</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li><a href="#skils">Skills</a></li>
+                <li> <a href="#resume">Resume</a></li>
             </ul>
         </nav>
-        <a class ="cta" href="#"><button>Contact</button></a>
+        <a class ="cta" href="#form"><button>Contact</button></a>
     </header>
 
-    <div class ="content">
-        <h4>Hello, my name is</h4>
-        <h1>Jesse <span style="color:rgba(0, 136, 169, 1);">Boakye</span></h1>
-        <h3>I am a CS student</h3>
-    </div>
+    
 
     <!--About Section-->
     <section class ="about">
+        <div class ="content">
+            <h4>Hello, my name is</h4>
+            <h1>Jesse <span style="color:rgba(0, 136, 169, 1);">Boakye</span></h1>
+            <h3>I am a CS student</h3>
+        </div>
         <div class="main">
             <img src = "images/main_img.jpg">
             <div class = "about-text">
-                <h2>About Me</h2>
+                <h2 id="about-me">About Me</h2>
                 <h5>CS Student <span style="color: rgba(0, 136, 169, 1);">& Developer</span></h5>
                 <p>
                     Hi, My name is Jesse. I'm a deligent aspiring software engineer who's very goal oriented. 
@@ -42,15 +43,141 @@
                     I'm currently a rising sophomore at the UW bothell pursuing a 
                     bachelors in computers science and engineering
                 </p>
-                <button type ="button">Let's Talk</button>
+                <a class="cta" href="#form"><button type ="button">Let's Talk</button></a>
             </div>
         </div>   
     </section>
+<!--=======================================================================================-->
+    <!--Recent Project section-->
+    <!--
+    <section class ="project-section" id="projects">
+        <h2 class="Section title">Portfolio</h2>
+        <span class="section_subtitle">Most recent work</span>
+        <div class="portfolio__container">
+            <div>
+                <div class="portfolio__content grid">
+                    <img src="images/python.png" alt = "" class="portfolio__img">
+                    <div class ="portfolio__data">
+                        <h3 class="portfolio__title">Guess Game</h3>
+                        <p class="portfolio__descrtion">This is the basic game, where the user tries to guess a random generated random. 
+                        </p>
+                        <a class="cta" href="#form"><button type ="button">demo<i class="uil uil-arrow-right"></i></button></a>
+                    </div>
+                </div>
 
+                <div class="portfolio__content grid">
+                    <img src="images/python.png" alt = "" class="portfolio__img">
+                    <div class ="portfolio__data">
+                        <h3 class="portfolio__title">Personal Website</h3>
+                        <p class="portfolio__descrtion">Perosnla website tha host all my projects 
+                        </p>
+                        <a class="cta" href="#form"><button type ="button">demo<i class="uil uil-arrow-right"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    -->
+
+<!--========================================================================================-->
+
+    <!--Skills-->
+    <div class="skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+    
+    <div class = "box">
+        <div class="card">
+            <i class="uil uil-bars"></i>
+            <h5>Web Devlopment</h5>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore ullam eaque nulla eos sequi molestiae assumenda quidem! Repellat, quis omnis ipsum fugit ratione dolorum consectetur non? Veritatis, quod temporibus?</p>
+            </div>
+            <p style="text-align: center;">
+                <a class="button" href="#">read more</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <i class="uil uil-user"></i>
+            <h5>Web Devlopment</h5>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore ullam eaque nulla eos sequi molestiae assumenda quidem! Repellat, quis omnis ipsum fugit ratione dolorum consectetur non? Veritatis, quod temporibus?</p>
+            </div>
+            <p style="text-align: center;">
+                <a class="button" href="#">read more</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <i class="uil uil-bell"></i>
+            <h5>Web Devlopment</h5>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore ullam eaque nulla eos sequi molestiae assumenda quidem! Repellat, quis omnis ipsum fugit ratione dolorum consectetur non? Veritatis, quod temporibus?</p>
+            </div>
+            <p style="text-align: center;">
+                <a class="button" href="#">read more</a>
+            </p>
+        </div>
+    </div>
+</div>
     <div class ="contact-me">
         <p>Get in touch</p>
-        <a class = "button-two" href="#">Hire me</a>
+        <a class = "button-two" href="#form">Hire me</a>
     </div>
+
+    <section class="contact">
+        <div class="intro">
+            <h6>Contact us</h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur veniam pariatur corrupti minima impedit omnis dolor eveniet quibusdam? Enim saepe itaque dolor officiis maxime rem sunt vel voluptates deleniti error.</p>
+        </div>
+        <div class="container">
+            <div class="contact-info">
+                <div class="box">
+                    <div class ="icon"><i class="uil uil-map-marker"></i></div>
+                    <div class ="text">
+                        <h7>Address</h7>
+                        <p>Seattle WA</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class ="icon"><i class="uil uil-phone"></i></div>
+                    <div class ="text">
+                        <h7>phone</h7>
+                        <p>425-346-5160</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class ="icon"><i class="uil uil-envelope"></i></div>
+                    <div class ="text">
+                        <h7>Email</h7>
+                        <p>jesse8584@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm" id="form">
+                <form>
+                    <h6>Send Message</h6>
+                    <div class="inputBox">
+                        <input type="text" name="" required = "required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required = "required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required ="required"></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>Jesse Boakye</p>

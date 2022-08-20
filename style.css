@@ -332,6 +332,20 @@ footer p:nth-child(2){
     font-size: 18px;
 }
 
+.skills{
+    background: #24252a;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px;
+    text-align: center;
+}
+
 @media (max-width: 991px){
     .contact{
         padding:50px
@@ -347,3 +361,14 @@ footer p:nth-child(2){
         width: 100%;
     }
 }
+
+.section__title {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .section__subtitle {
+    display: block;
+    font-size: .813rem;
+    margin-bottom: 3rem;
+  }
