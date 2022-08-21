@@ -387,7 +387,6 @@ h5{
     padding: 9px 22px;
     background-color: rgba(0, 136, 169, 1);
     color: white;
-    font-weight: bold;
     border: 2px solid transparent;
     border-radius: 30px;
     cursor:pointer ;
@@ -423,16 +422,44 @@ h5{
  }
  .portfolio__container{
     overflow: initial;
- }
- .portfolio__content{
-    padding: 0 1.5rem;
- }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.portfolio__content{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #24252a;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    /*overflow: hidden;*/
+    text-align: center;
+}
+
+.portfolio__content .cta{
+    cursor:pointer ;
+    transition: .4s;
+    
+}
+
+ 
 .portfolio__img{
     width: 265px;
+    height: 150px;
     border-radius: .5rem;
     justify-self: center;
 }
 .portfolio__title{
     font-size: 1.125rem ;
     margin-bottom: 0.5rem;
+}
+.portfolio__description{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
 }
